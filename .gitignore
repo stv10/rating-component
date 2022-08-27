@@ -10,6 +10,7 @@
 
 # production
 /build
+/interactive-rating-component-main
 
 # misc
 .DS_Store

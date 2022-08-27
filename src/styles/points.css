@@ -1,0 +1,27 @@
+.point {
+    padding: 10px 15px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    width: 15px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.point:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.clicked {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+
+.points {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,66 @@
+.main {
+    border-radius: 15px;
+    background: hsl(216, 12%, 8%);
+    max-width: 340px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 10px;
+}
+
+.gradient {
+    background: hsl(216, 12%, 8%);
+    background: linear-gradient(180deg, hsl(213, 19%, 18%) 34%, hsl(216, 12%, 8%)60%);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.rate {
+    padding: 2px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+
+.star {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    max-width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: hsl(217, 12%, 63%);
+}
+
+.logo {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.hide {
+    display: none;
+}
