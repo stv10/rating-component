@@ -7,6 +7,7 @@
     border: 2px solid hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
+    transition: 0.3s;
 }
 
 .submit:hover {
